@@ -24,16 +24,20 @@
                         <div id="mainSection">
                                 <div id="image">  
                                         <div class="imagem-google"><img src="google.png" alt="logo google"></div>
-                                        <div class="pesquisar_google">
-                                                <span class="material-icons">search</span>
-                                                <input type="text" placeholder="" name="search">
-                                        </div>
-                                        <div class="buttons_2">
-                                                <button class="google-search">Google search</button>
-                                                <button class="estou-com-sorte">Estou com sorte</button>
-                                        </div>
+                                        <form action="https://google.com/search" class="form">
+                                                <div class="pesquisar_google">
+                                                        <span class="material-icons">search</span>
+                                                        <input type="text" placeholder="" name="q" class="search" autocapitalize="off" autofocus autocomplete="off" autocorrecr="off" spellcheck="off" maxlength="2048" >
+                                                </div>
+                                                <div class="buttons_2">
+                                                        <button type="submit" class="google-search">Google pesquisar</button>
+                                                        <button type=submit" name="btnI" class="google-search">Estou com sorte</button>
+                                                </div>
+
+                                        </form>
                                 </div>
                         </div>
         </body>
 
 </html>
+
