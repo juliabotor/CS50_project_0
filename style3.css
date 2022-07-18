@@ -1,0 +1,136 @@
+*{
+        margin: 0px;
+}  
+body{
+        font-family: arial, sans-serif;
+}
+.header {
+        display: flex;
+        justify-content:end;
+        height: 50px;
+        padding: 10px 10px;
+        align-items: center;
+}
+.header a{
+        margin-right: 20px;
+        color:rgba(0, 0, 0, 0.87);
+        font-size: 15px;
+        text-decoration: inherit;
+}
+.head{
+        height: 5vh;
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        padding: 20px 30px;
+}
+.material-icons{
+        color: grey;
+}
+.header_apps{
+        margin-right: 10px;
+}
+.imagem-google img{
+        position: absolute;
+        padding: 20px;
+        top: 0px;
+        left: 0px;
+        height: 25px;
+}
+.subheader{
+        color: #d93025;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 10px;
+        font-style: inherit;
+        padding: 20px;
+        font-size: 110%;
+        vertical-align: baseline;
+        text-decoration: none;
+}
+.caixaUm{
+        color:black;
+        margin: 35px;
+        padding: 0.5px;
+        border: 0px;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 90%;
+        text-decoration: none;
+}
+input{
+        position:fixed;
+        margin-left: 2px;
+	width: 100px;
+        }
+h3::after{
+        display: flex;
+        content:'';
+        margin-top: 25px;
+        margin-left: -50%;
+        border-bottom:0.5px solid rgb(225, 221, 221);
+}
+h2{
+        display:flex;
+        color: rgb(32, 30, 30);
+        font-family: 'Roboto', sans-serif;
+        font-size: 110%;
+
+}
+h4{
+        color: #777;
+        font-weight: bold;
+        font-size: 13px;
+        position: relative;
+        left: 750px;
+}
+
+label{
+        width:200px;
+        display:inline-block;
+}
+
+.caixaUm .fazer {
+        width: 200px;
+        font-size: 14px;
+}
+
+.caixaUm input {
+        border-radius: 1px; 
+        border: 1px solid #d9d9d9;
+        border-top: 1px solid #c0c0c0;
+        font-size: 13px;
+        height: 28px;
+        padding: 1px 8px;
+        width: 27%;
+}
+ .textheading2 {
+        width: 27%;
+        color: black;
+        font-size: 11px;
+        padding-left: 800px;
+        height: 28px;
+        padding: 1px 800px;
+        line-height: 70%;
+        position: relative;
+        top:-40px;
+      }
+span {
+        color: #666;
+        font-family: monospace;
+        font-size: 11px;
+        white-space: pre;
+        top:50px;
+}
+.button input {
+        background-color: #4d90fe;
+        background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+        color: white;
+        height: 30px;
+        min-width: 120px;
+        border: 1px solid #3079ed;
+        color: #fff;
+        border-radius: 2px;
+        font-size: 11px;
+        font-weight: bold;
+        left: 650px;
+      }
