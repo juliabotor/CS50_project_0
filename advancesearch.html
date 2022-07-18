@@ -4,61 +4,66 @@
                 <meta charset="UTF-8">
                 <meta http-equiv="X-UA-Compatible" content="IE=edge">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
                 <title>Advanced search</title>
-                <link rel="stylesheet" href="style.css">
+                <link rel="stylesheet" href="style3.css">
 
         </head>
-        <body>
-                <div class="advancedHeader">
-                        <div class="googleimagePequeno">
-                                <a href="googleimage.html">Imagens</a>
+        <body>                
+                <div id="head">
+                        <div id="links">
+                                <div class="header">
+                                        <div class="imagem-google"><img src="google.png" alt="logo google"></div>
+                                        <a href="index.html">Pesquisa Google</a>
+                                        <a href="googleimage.html">Imagens</a>
+                                        <span class="material-icons header_apps">apps</span>
+                                        <span class="material-icons">account_circle</span>
+                                        </div>
                         </div>
-                        <a href="index.html">Google Pesquisa</a>
                 </div>
-                <div class="advancedSubHeader">
-                        <h3>Pesquisa avançada</h3>
-                </div>
+                <div class="subheader"><h3>Pesquisa avançada</h3></div>
                 <form action="https:google.com/search">
-                        <div class="inputUm">
-                                <div class="textheading">Encontrar paginas com...</div>
-                                <div class="input-field"></div>
+                        <div class="caixaUm">
+                                <div class="textheading"><h2>Localizar paginas com...</h2></div>
+                                <div class="textheading3"><h4>Fazer isso na caixa de pesquisa.</h4></div>
+                                <div class="input"></div>
                         </div>
-                        <div class="inputUm">
-                                <div class="textDes">todas estas palavras:</div>
-                                <div class="input-field">
-                                        <input type="text"/>
-                                </div>
+                        <div class="caixaUm">
+                                <label class="fazer">todas estas palavras:</label>
+                                <input type="text">
                         </div>
-                        <div class="inputUm">
-                                <div class="textDes">esta expressão ou frase exata:</div>
-                                <div class="input-field">
-                                        <input type="text"/>
-                                </div>
+                        <div class="textheading2">
+                                Digite as palavras importantes: <span>rat terrier tricolor</span>
                         </div>
-                        <div class="inputUm">
-                                <div class="textDes">qualquer uma destas palavras:</div>
-                                <div class="input-field">
-                                        <input type="text"/>
-                                </div>
+                        <div class="caixaUm">
+                                <label class="fazer">esta expressão ou frase exata:</label>
+                                <input type="text">
                         </div>
-                        <div class="inputUm">
-                                <div class="textDes">nenhuma destas palavras:</div>
-                                <div class="input-field">
-                                        <input type="text"/>
-                                </div>
+                        <div class="textheading2">
+                                Coloque palavras extatas entre aspas: <span>"rat terrier"</span>
                         </div>
-                        <div class="inputUm">
-                                <div class="textDes">numeros que variam de:</div>
-                                <div class="input-field">
-                                        <input type="text"/>
-                                </div>
+                        <div class="caixaUm">
+                                <label class="fazer">qualquer uma destas palavras:</label>
+                                <input type="text">
+                        </div>
+                        <div class="textheading2">
+                                Digite OR entre todas as palavras que você procura: <span>miniatura OR padrão</span>
+                        </div>
+                        <div class="caixaUm">
+                                <label class="fazer">nenhuma destas palavras:</label>
+                                <input type="text">
+                        </div>
+                        <div class="textheading2">
+                                Coloque um sinal de menos antes das palavras que você não quer: <span>-roedor, -"Jack Russell"</span>
                         </div>
 
-                        <div class="inputOne">
-                                <div class="textDes"></div>
+                        <div class="caixaDois">
+                                <div class="fazer"></div>
                                 <div class="button">
-                                        <input type="submit" value="Pesquisa avançada"/>
-                                </div>
+                                        <input type="submit" value="Pesquisa avançada" name=bttn/></div>
                         </div>
                 </form>
         </body>
